@@ -24,6 +24,7 @@ font-size: 16px;
 font-family: "robotolight", sans serif;
 background-color:#fff;
 color: #b7b7b7;
+background: url(images/slider1.jpg) #fff no-repeat top;
 
 }
 article,aside,details,figcaption,figure,
@@ -114,3 +115,95 @@ vertical-align:middle;
     font-style: normal;
 
 }
+#wrapper{
+
+	width: 980px;
+	margin: 0px auto;
+}
+
+header{
+
+	padding-top: 50px;
+}
+
+#logo{
+
+	float: left;
+	background: url(images/logo.png) no-repeat top;
+	height: 20px;
+	width: 121px;
+	display: block;
+}
+
+.headerNavWrap{
+
+	float: right;
+	width: 515px;
+}
+
+.navigation{
+
+	float: left;
+}
+.navigation ul{
+
+	list-style: none;
+}
+
+.navigation ul li{
+
+	float: left;
+	margin-left: 45px;
+}
+
+.social-icons ul li{
+
+	float: left;
+	margin-left: 20px;
+}
+
+.navigation ul li a{
+
+	color: #fff;
+	text-decoration: none;
+	font-family: "robotoregular", sans serif;
+	font-size: 14px;
+}
+
+.navigation ul li a:hover{
+
+	color: #e92121;
+}
+
+.social-icons{
+
+	float: right;
+}
+
+.social-icons ul {
+
+	list-style: none;
+}
+ 
+
+.fb-header a{
+
+ 	background: url(images/fb_logo.png) no-repeat center;
+ 	display: block;
+ 	width: 20px;
+ 	height: 20px;
+}
+
+.tw-header a{
+
+	background: url(images/twitter_logo.png) no-repeat center;
+	display: block;
+ 	width: 20px;
+ 	height: 20px;
+
+}
+.fb-header a:hover, .tw-header a:hover{
+
+	background-color:#e92121; 
+}
+
