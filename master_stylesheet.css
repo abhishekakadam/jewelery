@@ -207,3 +207,102 @@ header{
 	background-color:#e92121; 
 }
 
+.slider_wrapper{
+
+	height: 428px;
+	margin-top: 300px;
+	color: #fff;
+}
+
+.slider_title{
+
+	font-size: 24px;
+	width: 190px;
+}
+
+.slider_heading{
+
+	font-family: "robotobold", sans serif;
+	font-size: 60px;
+	line-height: 60px;
+	width: 584px;
+}
+
+
+.slider_buttons{
+
+	width: 310px;
+	margin-top: 30px;
+	
+}
+.slider_buttons ul{
+
+	list-style: none;
+	height: 50px;
+}
+
+.slider_buttons ul li {
+
+	float: left;
+	margin-right: 20px;
+	display: block;
+
+}
+
+#learn_more a{
+
+	padding: 10px 10px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#choose_decoration a {
+
+	padding:10px 10px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+#learn_more a:hover{
+
+	background-color: #e92121;
+	border: 2px solid #e92121;
+	color: #fff;
+}
+
+#choose_decoration a:hover{
+
+	background-color: #e92121;
+	border: 2px solid #e92121;
+	color: #fff;
+}
+.our_history_heading{
+
+	width: 480px;
+	float: left;
+}
+.our_history_heading h2{
+
+	font-size: 48px;
+	font-family: "robotobold", sans serif;
+	color: #464646;
+	margin: 180px auto;
+	display: block;
+
+}
+
+.our_history_para{
+
+	margin-left: 20px;
+	width: 480px;
+	float: left;
+	margin: 80px auto;
+	line-height: 30px;
+}
+
+
