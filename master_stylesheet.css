@@ -115,7 +115,7 @@ vertical-align:middle;
     font-style: normal;
 
 }
-#wrapper{
+.wrapper{
 
 	width: 980px;
 	margin: 0px auto;
@@ -305,5 +305,448 @@ header{
 	margin: 80px auto;
 	line-height: 30px;
 }
+
+#line{
+
+	background: url(images/line.png) no-repeat center top;
+	height: 2px;
+}
+
+.history_section{
+
+	border-bottom: 1px solid #999999;
+}
+
+.howitworks{
+
+
+}
+
+.howitworks h2{
+
+	width: 290px;
+	font-family: "robotobold", sans serif;
+	font-size: 30px;
+	line-height: 40px;
+	color: #464646;
+	margin: 0px auto 30px;
+	padding-top: 50px;
+
+}
+
+.zigzag{
+
+	background: url(images/zigzag.png) center top no-repeat;
+	display: block;
+	width: 70px;
+	height: 12px;
+	margin: 0px auto
+}
+
+.youcanask{
+
+	width: 442px;
+	font-size: 18px;
+	line-height: 30px;
+	margin: 27px auto;
+	text-align: center;
+
+}
+
+.howitworks ul, .tagline ul{
+
+	list-style: none;
+	margin-top: 105px;
+
+}
+
+.howitworks ul li, .tagline ul li{
+
+	width: 310px;
+	height: 238px;
+	float: left;
+	margin-left: 16px;
+	margin-top: 15px;
+
+}	
+
+.piece_of_jewelry{
+
+	background: url(images/icons/jewelery-icon.png) left top no-repeat;
+	display: block;
+	height: 100px;
+	width: 100px;
+	
+
+}
+
+.make_decoration{
+
+	background: url(images/icons/decoration-icon.png) left top no-repeat;
+	display: block;
+
+
+}
+.payment_methods{
+
+	background: url(images/icons/doller-icon.png) left top no-repeat;
+	display: block;
+	
+}
+.above_decoration{
+
+	background: url(images/icons/calender.png) left top no-repeat;
+	display: block;
+	
+}
+.successfully_passed{
+
+	background: url(images/icons/thumb-icon.png) left top no-repeat;
+	display: block;
+	
+}
+.purchased_item{
+
+	background: url(images/icons/heart-icon.png) left top no-repeat;
+	display: block;
+
+}
+
+
+
+.piece_of_jewelry h3, .make_decoration h3, .payment_methods h3, .above_decoration h3, .successfully_passed h3, .purchased_item h3{
+
+	margin-top: 90px;
+	font-family: "robotobold", sans serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #515151;
+
+}
+
+.piece_of_jewelry p, .make_decoration p, .payment_methods p, .above_decoration p, .successfully_passed p, .purchased_item p{
+
+	margin-top: 15px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.product_slider{
+
+	background-color: #faf9f9;
+	height: 620px;
+}
+
+.product{
+
+	float: left;
+	width: 420px;
+	margin: 210px auto;
+
+}
+
+.product img{
+
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	margin: 0px auto;
+	display: block;
+
+
+}
+
+.product_details{
+
+	float: left;
+	width: 530px;
+	margin-top: 210px;
+	margin-left: 30px;
+}
+
+.product_details h3{
+
+	width: 119px;
+	font-family: "robotobold", sans serif;
+	font-size: 30px;
+	line-height: 40px;
+	color: #464646;
+}
+
+#zigzag-1{
+
+	background: url(images/zigzag.png) center top no-repeat;
+	display: block;
+	width: 70px;
+	height: 12px;
+	margin: 20px 0px 20px 20px;
+
+}
+
+.product_details p{
+
+	width: 500px;
+}
+
+.product_details a{
+
+	float: left;
+	padding:10px 10px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	color: #fff;
+	text-decoration: none;
+	background-color:#b7b7b7;
+	margin-top: 15px;
+}
+
+.product_details a:hover{
+
+	background-color: #e92121;
+	border: 2px solid #e92121;
+	color: #fff;
+}
+
+
+.middle_gallery{
+
+	height: 1190px;
+}
+
+.why_heading{
+
+	width: 350px;
+	height: 310px;
+	float: left;
+
+
+}
+.why_heading h2{
+
+	width: 168px;
+	font-family: "robotobold", sans serif;
+	font-size: 48px;
+	line-height: 60px;
+	color: #464646;
+	margin: 80px 0px 0px 0px;
+	
+
+}
+
+.why_heading_details{
+
+	margin-left: 10px;
+	width: 570px;
+	height: 310px;
+	float: left;
+}
+.why_heading_details ul{
+
+	margin-top: 35px;
+	list-style: none;
+}
+
+.why_heading_details ul li{
+
+	float: left;
+	width: 275px;
+	margin: 5px 0px 20px 10px;
+}
+
+.why_heading_details h3{
+	
+	font-family: "robotobold", sans serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #515151;
+
+}
+
+.why_heading_details p{
+	
+	margin-top: 15px;
+	font-size: 16px;
+	line-height: 24px;
+
+}
+
+.ourjewelery_gallery, .photo_blog_images{
+
+	height: 470px;
+	margin-top: 60px;
+	
+}
+
+.ourjewelery_gallery ul, .photo_blog_images ul{
+
+	list-style: none;
+}
+
+.ourjewelery_gallery ul li{
+
+
+	float: left;
+	width: 245px;
+	height: 235px;	
+}
+
+.ourjewelery_gallery ul li h2,.photo_blog_images ul li h2{
+
+	font-family: "robotobold", sans serif;
+	font-size: 48px;
+	line-height: 60px;
+	color: #464646;
+	margin-top: 50px;
+	margin-left: 28px;
+
+}
+#zigzag-2{
+
+	background: url(images/zigzag.png) center top no-repeat;
+	display: block;
+	width: 70px;
+	height: 12px;
+	margin: 20px 0px 20px 28px;
+
+}
+
+.ourjewelery_details, .photo_blog_details{
+
+	
+	text-align: justify;
+	margin-top: 60px;
+	font-size: 16px;
+	line-height: 30px;
+	height: 210px;
+	-webkit-column-count: 2;
+    -moz-column-count: 2; 
+    column-count: 2;
+}
+
+.commentsfromcust{
+
+	background-color: #faf9f9;
+	
+}
+
+.tagline h2{
+	
+	width: 437px;
+	font-family: "robotobold", sans serif;
+	font-size: 30px;
+	line-height: 40px;
+	color: #464646;
+	margin: 0px auto 30px;
+	padding-top: 50px;
+}
+
+.comment_first{
+
+	background: url(images/icons/1.png) no-repeat;
+	display: block;
+	height: 38px;
+	width: 38px;
+	float: left;
+
+}
+
+.comment_second{
+
+	background: url(images/icons/1.png) left top no-repeat;
+	display: block;
+
+
+}
+.comment_third{
+
+	background: url(images/icons/1.png) left top no-repeat;
+	display: block;
+	
+}
+.comment_fourth{
+
+	background: url(images/icons/1.png) left top no-repeat;
+	display: block;
+	
+}
+.comment_fifth{
+
+	background: url(images/icons/1.png) left top no-repeat;
+	display: block;
+	
+}
+.comment_sixth{
+
+	background: url(images/icons/1.png) left top no-repeat;
+	display: block;
+
+}
+
+ .comment_first h3, .comment_second h3, .comment_third h3, .comment_fourth h3, .comment_fifth h3, .comment_sixth h3{
+
+	margin-top: 8px;
+	font-family: "robotobold", sans serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #515151;
+	float: left;
+	margin-left: 50px;
+	height: 31px;
+}
+
+ .comment_first p, .comment_second p, .comment_third p, .comment_fourth p, .comment_fifth p, .comment_sixth p{
+
+	margin-top: 15px;
+	font-size: 16px;
+	line-height: 24px;
+	float: left;
+}
+#name{
+
+	
+	width: 120px;
+	height: 20px;
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	margin-left: 52px;
+
+}
+
+.photo_blog{
+
+
+}
+
+.photo_blog_images ul li{
+
+
+	float: left;
+	width: 245px;
+	height: 235px;	
+
+}
+
+#photo_blog_images_title{
+
+
+	width: 490px;
+	height: 235px;
+
+
+}
+
+#photo_blog_images_title h2{
+
+	margin-left: 0px;
+}
+
+#zigzag-4{
+
+	background: url(images/zigzag.png) center top no-repeat;
+	display: block;
+	width: 70px;
+	height: 12px;
+	margin: 20px 0px 20px 0px;
 
 
