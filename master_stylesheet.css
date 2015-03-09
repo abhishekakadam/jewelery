@@ -605,6 +605,7 @@ footer{
 	height: 25px;
 	width: 25px;
 	display: block;
+	margin: 0px auto;
 }
 .facebook a{
 	background: url(images/icons/ftr-fb.png) no-repeat;
@@ -618,6 +619,10 @@ footer{
 .googleplus a{
 	background: url(images/icons/ftr-google.png) no-repeat;
 }
+.facebook a:hover, .twitter a:hover, .dribbble a:hover, .googleplus a:hover{
+	background-color: #e92121;
+}
+
 .footer_copyright{
 	float: right;
 	font-size: 16px;
