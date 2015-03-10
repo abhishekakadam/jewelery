@@ -134,9 +134,7 @@ header{
 	display: block;
 }
 .headerNavWrap{
-
 	float: right;
-	width: 515px;
 }
 .navigation{
 	float: left;
@@ -444,7 +442,7 @@ header{
 	width: 245px;
 	height: 235px;	
 }
-.ourjewelery_gallery ul li img:hover{
+.ourjewelery_gallery ul li img:hover, .photo_blog_images ul li img:hover{
 	-ms-transform: scale(1.1,1.1); /* IE 9 */
     -webkit-transform: scale(1.1,1.1); /* Chrome, Safari, Opera */
     transform: scale(1.1,1.1);
@@ -542,7 +540,10 @@ header{
 	float: left;
 	width: 245px;
 	height: 235px;	
+	overflow: hidden;
 }
+
+
 #photo_blog_images_title{
 	width: 490px;
 	height: 235px;

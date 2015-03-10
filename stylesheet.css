@@ -1,0 +1,240 @@
+*{
+	transition-duration: 0.8s;
+	-webkit-transition-duration: 0.8s; /* Safari */
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+body {
+/*line-height:1px;*/
+font-size: 16px;
+font-family: "robotolight", sans serif;
+background-color:#fff;
+color: #b7b7b7;
+
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+blockquote, q {
+quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+
+}
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000;
+font-style:italic;
+font-weight:bold;
+}
+del {
+text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+input, select {
+vertical-align:middle;
+}
+.content_clear{
+	clear: both;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('font/roboto_bold/Roboto-Bold-webfont.eot');
+    src: url('font/roboto_bold/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto_bold/Roboto-Bold-webfont.woff') format('woff'),
+         url('font/roboto_bold/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('font/roboto_bold/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('font/roboto_light/Roboto-Light-webfont.eot');
+    src: url('font/roboto_light/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto_light/Roboto-Light-webfont.woff') format('woff'),
+         url('font/roboto_light/Roboto-Light-webfont.ttf') format('truetype'),
+         url('font/roboto_light/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('font/roboto_regular/Roboto-Regular-webfont.eot');
+    src: url('font/roboto_regular/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/roboto_regular/Roboto-Regular-webfont.woff') format('woff'),
+         url('font/roboto_regular/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('font/roboto_regular/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'MYRIADPROREGULAR';
+    src: url('font/myriad_regular/MYRIADPROREGULAR.eot');
+    src: local('MYRIADPROREGULAR'), url('font/myriad_regular/MYRIADPROREGULAR.woff') format('woff'), url('font/myriad_regular/MYRIADPROREGULAR.ttf') format('truetype');
+}
+.wrapper{
+    width: 980px;
+    margin: 0px auto;
+}
+
+.navigation_menu{
+
+    padding-top: 50px;
+    position: absolute;
+    z-index: 10;
+}
+#logo{
+    background: url(images/logo.png) no-repeat;
+    height: 17px;
+    width: 120px;
+    float: left;
+}
+.navigation{
+    list-style: none;
+    margin-left: 500px;
+}
+.navigation li{
+    float: left;
+    margin-right: 25px;
+
+}
+.navigation li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "robotoregular", sans serif;
+    font-size: 14px;
+}
+.navigation li a:hover{
+    color: #e92121;
+
+}
+#fb-header a, #tw-header a{
+    background: url(images/fb_logo.png) no-repeat center;
+    display: block;
+    height: 25px;
+    width: 25px;
+}
+
+#tw-header a{
+    background: url(images/twitter_logo.png) no-repeat center;
+    display: block;
+    height: 25px;
+    width: 25px;
+}
+.slider{
+
+    background: url(images/slider1.jpg) no-repeat center;
+}
+#slider_p{
+    padding-top: 300px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 60px;
+    float: left;
+}
+#slider_h2{
+
+    font-family: "robotobold", sans serif;
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    float: left;
+    
+}
+#slider_learnmore, #slider_decoration{
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 2px 40px;
+    border-radius: 3px;
+    font-family: "robotobold", sans serif;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 40px 20px 217px 0px;
+ }
+ #slider_learnmore:hover, #slider_decoration:hover{
+    color: #fff;  
+    background-color: #e92121;
+    border: 1px solid #e92121;
+ }
+.container{
+    margin: 0px auto;
+    width: 980px;
+}
+.para_headings{
+    width: 307px;
+    float: left;
+    
+}
+.para_headings h2{
+    font-family:"robotobold", sans serif;
+    font-size: 48px;
+    line-height: 60px;
+    color: #464646;
+    padding-top: 250px;
+}
+.para_headings_details{
+    width: 475px;
+    float: right;
+    padding-top: 50px;
+}
+.para_headings_details p{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "MYRIADPROREGULAR", sans serif;
+    padding-top: 50px;
+
+
+} 
